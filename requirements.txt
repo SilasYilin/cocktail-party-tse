@@ -1,0 +1,31 @@
+# Python 3.10+ 推荐（已在 conda env `cocktail` 下验证）
+#
+# GPU 版 PyTorch 请按官方说明安装，例如 CUDA 12.6：
+#   pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu126
+# 再执行：pip install -r requirements.txt
+
+# 数据处理与指标
+numpy>=1.24,<3
+scipy>=1.10,<2
+soundfile>=0.12.1
+tqdm>=4.66
+mir_eval>=0.7
+
+# 感知语音质量指标
+pesq>=0.0.4
+
+# 可视化
+matplotlib>=3.7
+
+# 模型推理（建议 GPU）
+torch>=2.1
+torchaudio>=2.1
+speechbrain>=1.0,<2
+clearvoice==0.1.2
+huggingface-hub>=0.23
+
+# WeSep 预训练 TSE（PyPI 无包，需从 GitHub 安装）
+# pip install "git+https://github.com/wenet-e2e/WeSep.git" silero-vad onnxruntime
+
+# WavLM 等 HuggingFace 预训练模型
+transformers>=4.40

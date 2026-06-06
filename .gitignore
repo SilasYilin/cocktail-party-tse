@@ -1,0 +1,49 @@
+# 数据与实验产物（体积大，不入库）
+data/raw/
+data/processed/
+data/downloads/
+outputs/
+outputs/separated/
+outputs/target_extracted/
+checkpoints/
+.vendor/
+*.log
+
+# 本地配置（可复制 configs/experiment_config.example.json）
+configs/experiment_config.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+.env.*
+
+# 笔记本与测试缓存
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE（含本机解释器路径）
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 可选克隆的第三方仓库（非本仓库代码）
+ClearerVoice-Studio/
+wesep/
+
+# Hugging Face 下载缓存（权重目录内）
+**/.cache/
