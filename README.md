@@ -43,7 +43,7 @@ cocktail/
 
 ```bash
 # 1. 克隆并进入仓库
-git clone https://github.com/SilasLin/cocktail-party-tse.git
+git clone https://github.com/SilasYilin/cocktail-party-tse.git
 cd cocktail-party-tse
 
 # 2. 创建环境
@@ -133,9 +133,9 @@ python run.py train_spex --work-root ./data    # SpEx+
 ```bibtex
 @misc{cocktail-party-tse2026,
   title  = {Cocktail Party Target Speaker Extraction Comparison},
-  author = {SilasLin},
+  author = {SilasYilin},
   year   = {2026},
-  url    = {https://github.com/SilasLin/cocktail-party-tse}
+  url    = {https://github.com/SilasYilin/cocktail-party-tse}
 }
 ```
 
